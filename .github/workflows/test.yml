@@ -1,6 +1,6 @@
 name: test-project
 on: 
-  push
+  [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
